@@ -1,7 +1,19 @@
-.thumbnail {
-	text-align: center;
+.cart-item {
+	margin-bottom: 10px;
 }
-
-.user-box {
-	text-align: left;
+.cart-item img {
+	max-width: 25px;
+}
+.cart-item > div {
+	display: inline-block;
+	margin: 0 10px;
+}
+.cart-item > .num-in-cart {
+	margin-right: 0px;
+	min-width: 20px;
+	text-align: right;
+}
+.cart .user-cash {
+	font-size: 120%;
+	font-weight: bold;
 }
